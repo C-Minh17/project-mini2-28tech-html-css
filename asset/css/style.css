@@ -1,0 +1,723 @@
+/* <---header--- */
+.header{
+    background-image: url(/project-mini-2/asset/images/banner-bg.png);
+    background-size: cover;
+    margin-top:-100px;
+
+}
+header a{
+    text-decoration: none;
+    color:black;
+}
+header a:hover{
+    text-decoration: none;
+}
+
+header .box{
+    margin:0 20px;
+    display:flex;
+}
+header{
+    border:4px #F4F4F4 solid;
+    border-radius:100px;
+    position:sticky;
+    z-index: 99;
+    top:0;
+    left:0;
+    top:30px;
+    background-color:white;
+}
+header .box .logo{
+    padding:28px 0;
+    width:25%;
+}
+header .box .logo:hover{
+    cursor:pointer;
+}
+header .box .menu{
+    flex: 1;
+    padding:28px 0;
+    display:flex;
+    justify-content: space-between;
+
+}
+header .box .icon{
+    display: none;
+}
+
+header .box .menu div{
+    font-size: 15.6px;
+    font-weight: 500;
+}
+header .box .menu div:hover{
+    color:var(--color-1);
+    cursor:pointer;
+
+}
+.header .text{
+    padding-top:300px;
+    text-align:center;
+    color:white;
+}
+.header .text h1{
+    font-size:45px;
+}
+.header .text .h1{
+    margin-bottom:40px;
+}
+.header .text p{
+    font-size: 17px;
+}
+.header .button{
+    text-align:center;
+    padding:35px;
+}
+.header .button span{
+    padding:13px 24px;
+    background-color:var(--color-1);
+    border-radius:40px;
+    color:white;
+    font-size: 15px;
+}
+.header .button span:hover{
+    background-color: var(--color-2);
+    cursor:pointer;
+}
+.header .information{
+    margin-top:25px;
+}
+.header .information .boxes{
+    margin-bottom:-50px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header .information .boxes>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-2);
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    margin:30px 0;
+}
+.header .information img{
+    width: 60px;
+    height:60px;
+}
+.header .information .boxes h3{
+    font-size: 18px;
+}
+.header .information .boxes p{
+    font-size:14px;
+    margin:20px 0;
+}
+.header .information .boxes>div:hover{
+    background-color: var(--color-1);
+}
+
+@media (max-width:991.98px){
+    header .box .menu{
+        display: none;
+    }
+    
+    header .box .icon{
+        flex:1;
+        display:inline-block;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        font-size: 30px;
+    }
+    .header .information .boxes{
+        margin:20px 0;
+    }
+}
+
+/* <---content-1--- */
+.content-1 .box{
+    margin:150px 0;
+}
+.content-1 .box h3{
+    margin:40px 0;
+    font-size: 25px;
+}
+.content-1 .box p{
+    color:var(--color-4);
+    font-size: 19px;
+}
+.content-1 .img{
+    padding-left:90px;
+}
+
+
+@media (max-width:991.98px){
+    .content-1 .img{
+        padding:0;
+        text-align: center;
+    }
+}
+
+/* <---content-2--- */
+.content-2 .box{
+    margin:150px 0;
+}
+.content-2 .box h3{
+    margin:40px 0;
+    font-size: 25px;
+}
+.content-2 .box p{
+    color:var(--color-4);
+    font-size: 19px;
+}
+.content-2 .img{
+    padding-left:200px;
+}
+
+@media (max-width:991.98px){
+    .content-2 .img{
+        padding:0;
+        text-align: center;
+    }
+}
+/* <---content-3--- */
+.content-3{
+    background-image:url(/project-mini-2/asset/images/work-process-bg.png) ;
+    background-size: cover;
+}
+.content-3 .container{
+    text-align: center;
+}
+.content-3 h2{
+    padding-top:130px;
+    padding-bottom:30px;
+    color:white;
+    font-size: 33px;
+}
+.content-3 .text{
+    padding-bottom:60px;
+    color:white;
+    font-size:18px;
+}
+.content-3 .row{
+    padding:30px 0;
+    padding-bottom:140px;
+}
+.content-3 .row .boxxx{
+    background-color: #AD7EE0;
+    border-radius: 20px;
+    padding-right:8px;
+    padding-bottom:8px;
+    margin-bottom:40px;
+}
+.content-3 .row .boxxx .box{
+    background-color: white;
+    border-radius: 20px;
+    margin-top:-15px;
+    margin-left:-15px;
+    padding-bottom:25px;
+}
+.content-3 .row .boxxx .box div{
+    padding:16px;
+    font-size:35px;
+    color:#985CDD;
+}
+.content-3 .row .boxxx .box:hover{
+    margin-top: -25px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+/* <---content-4--- */
+.content-4 .title{
+    margin-bottom:40px;
+    margin-top:90px;
+    text-align: center;
+}
+.content-4 .title h3{
+    font-size: 35px;
+    margin-bottom:20px;
+}
+.content-4 .title p{
+    font-size:19px;
+    color:var(--color-4)
+}
+.content-4 .row .box{
+    margin-bottom:20px;
+    border:6px #F4F4F4 solid;
+    border-radius: 10px;
+}
+.content-4 .row .box .icon{
+    text-align: center;
+    padding:20px 0;
+    font-size:30px;
+    color:#AD7EE0;
+}
+.content-4 .row .box>p{
+    padding:0 20px;
+    padding-bottom:30px;
+    font-size: 19px;
+    color:var(--color-4)
+}
+.content-4 .row .box .info{
+    padding:0 15px;
+    padding-bottom:30px;
+    display: flex;
+    align-items: center;
+
+}
+.content-4 .row .box .info img{
+    width:80px;
+    height:80px;
+    border-radius: 50px;
+}
+
+.content-4 .row .box .info .name{
+    padding-left:10px;
+}
+.content-4 .row .box .info p{
+    color:var(--color-1);
+}
+.content-4 .row .box .info .name:hover{
+    padding-left:20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+/* <---content-5--- */
+.content-5{
+    background-color: #F2F2FE;
+    text-align: center;
+}
+.content-5 .title{
+    margin-top:80px;
+    padding-top:120px;
+    padding-bottom:60px;
+}
+.content-5 .title h3{
+    font-size: 35px;
+}
+.content-5 .title p{
+    color:var(--color-4);
+    font-size:18px;
+}
+.content-5 .row .box{
+    background-color: white;
+    border-radius: 15px;
+}
+.content-5 .row .box h4{
+    font-size: 22px;
+    padding-top:40px;
+}
+.content-5 .row .box .rile{
+    background-color: var(--color-2);
+    margin:20px 30px;
+    border-radius: 10px;
+    padding:20px;
+}
+.content-5 .row .box>p{
+    margin:10px 0;
+    color:var(--color-4)
+}
+.content-5 .row .box .button{
+    display: flex;
+    justify-content: center;
+}
+.content-5 .row .box .button div{
+    width:170px;
+    border-radius: 50px;
+    background-color: var(--color-2);
+    margin-top:50px;
+    margin-bottom:30px;
+    padding:10px 0;
+    font-size: 16px;
+    color: white;
+}
+.content-5 .row .box{
+    margin-bottom:20px;
+}
+.content-5 .row .boxx .rile{
+    background-color: var(--color-1);
+}
+
+.content-5 .row{
+    padding-bottom:150px;
+}
+.content-5 .row .box .button div:hover{
+    background-color: var(--color-1);
+}
+
+/* <---content-6--- */
+.content-6{
+    background-image:url(/project-mini-2/asset/images/work-process-bg.png) ;
+    background-size: cover;
+}
+.content-6 .box{
+    display:flex;
+    margin :0 60px;
+}
+.content-6 .box>div{
+    width:calc(100% / 7);
+    text-align:center;
+    color:white;
+    padding:170px 0;
+
+}
+.content-6 .box div h2{
+    font-size: 35px;
+    font-weight: 800;
+}
+.content-6 .box div p{
+    font-size: 20px;
+}
+.content-6 .box .item2{
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-6 .box .item1{
+    padding-top:160px;
+    padding-bottom:180px;
+}
+.content-6 .box .item3{
+    padding-top:165px;
+    padding-bottom:175px;
+}
+.content-6 .box .item7{
+    padding-top:175px;
+    padding-bottom:165px;
+}
+.content-6 .box .item7:hover{
+    padding-bottom:185px;
+    padding-top:155px;
+    cursor: pointer;
+}
+.content-6 .box .item1:hover{
+    padding-bottom:185px;
+    padding-top:155px;
+    cursor: pointer;
+}
+.content-6 .box .item3:hover{
+    padding-bottom:185px;
+    padding-top:155px;
+    cursor: pointer;
+}
+.content-6 .box .item5:hover{
+    padding-bottom:185px;
+    padding-top:155px;
+    cursor: pointer;
+}
+@media (max-width:991.98px){
+    .content-6 .box .item2{
+        display:none;
+    }
+    .content-6 .box{
+        flex-wrap: wrap;
+    }
+    .content-6 .box div{
+        width:50%;
+        padding:0px;
+    }
+    .content-6 .box .item1{
+        padding-top:100px;
+        padding-bottom:50px;
+        display:flex;
+        justify-content: center;
+    }
+    .content-6 .box .item3{
+        padding-top:100px;
+        padding-bottom:50px;
+    }
+    .content-6 .box .item5{
+        padding-bottom:100px;
+        padding-top:0px;
+    }
+    .content-6 .box .item7{
+        padding-top:0px;
+        padding-bottom:100px;
+    }
+    .content-6 .box .item7:hover{
+        padding:0px;
+    }
+    .content-6 .box .item1:hover{
+        padding-top:100px;
+        padding-bottom:50px;
+    }
+    .content-6 .box .item3:hover{
+        padding-top:100px;
+        padding-bottom:50px;
+    }
+    .content-6 .box .item5:hover{
+        padding:0px;
+    }  
+}
+@media (max-width:765.98px){
+    .content-6 .box>div{
+        width:100%;
+    }
+    .content-6 .box .item1{
+        padding:50px 0;
+    }
+    .content-6 .box .item3{
+        padding:50px 0;
+    }
+    .content-6 .box .item5{
+        padding:50px 0;
+    }
+    .content-6 .box .item7{
+        padding:50px 0;
+    }
+    .content-6 .box .item1:hover{
+        padding:50px 0;
+    }
+    .content-6 .box .item3:hover{
+        padding:50px 0;
+    }
+    .content-6 .box .item5:hover{
+        padding:50px 0;
+    }
+    .content-6 .box .item7:hover{
+        padding:50px 0;
+    }
+}
+/* <---content-7--- */
+.content-7 .container{
+    padding:100px 0;
+    text-align:center ;
+}
+.content-7 .container .center h2{
+    margin-bottom:26px;
+    font-size: 37px;
+}
+.content-7 .container .center>p{
+    font-size: 19px;
+    color:var(--color-4);
+    margin-bottom:60px;
+}
+.content-7 .container .center .row .box h3{
+    font-size: 20px;
+    margin:30px 0;
+}
+.content-7 .container .center .row .box p{
+    font-size: 14px;
+    color:var(--color-4);
+    margin:10px 0;
+}
+.content-7 .container .center .row .box .button span{
+    display: inline-block;
+    background-color: var(--color-2);
+    padding:10px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin:30px 0;
+    color:white;
+}
+.content-7 .container .center .row .box .button span:hover{
+    background-color: var(--color-1);
+    padding:12px 32px;
+    cursor:pointer;
+}
+
+/* <---content-8--- */
+.content-8{
+    background-color: #F2F2FE;
+}
+.content-8 .center{
+    padding:160px 0;
+}
+.content-8 .center .title{
+    text-align: center;
+    margin-bottom:45px;
+}
+.content-8 .center .title p{
+    font-size:20px;
+    color:var(--color-4);
+}
+.content-8 .center .formm{
+    display: flex;
+}
+.content-8 .center .text{
+    width:38%;
+}
+.content-8 .center .text p{
+    font-size: 17px;
+    color:var(--color-4);
+    margin:30px 0;
+}
+.content-8 .center form{
+    flex:1;
+}
+.content-8 .center form .write{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content-8 .center form .write .input{
+    width:48%;
+}
+.content-8 .center form .write .input input{
+    width:100%;
+    padding:20px;
+    border-radius: 50px;
+    border:0px;
+}
+.content-8 .center form .write textarea{
+    width:100%;
+    border-radius: 20px;
+    margin:40px 0;
+    border:none;
+    padding:20px;
+}
+.content-8 .center form .button input{
+    display: inline-block;
+    background-color: var(--color-2);
+    color:white;
+    padding:15px 20px;
+    border:none;
+    border-radius: 50px;
+}
+.content-8 .center form .button input:hover{
+    background-color: var(--color-1);
+}
+@media (max-width:991.98px){
+    .content-8 .center form .write .input{
+        width:100%;
+        margin-bottom:20px;
+    }
+    .content-8 .center form .write textarea{
+        margin-top:0;
+    }
+
+}
+@media (max-width:767.98px){
+    .content-8 .formm {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-8 .formm .text{
+        width:100%;
+    }
+    .content-8 .formm form{
+        width:100%;
+    }
+}
+/* <---footer--- */
+footer{
+    background-image:linear-gradient(90deg,#A65AD2,#8261EE);
+    text-align: center;
+}
+footer .icon span{
+    display: inline-block;
+    position: relative;
+    width:40px;
+    height:40px;
+    background-color: white;
+    border-radius: 50px;
+    margin:40px 0;
+    margin-right:15px;
+}
+footer .icon i {
+    color:#955DE0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer .icon span:hover{
+    background-color: var(--color-1);
+    color:white;
+}
+hr{
+    margin:0px;
+}
+footer p{
+    padding:30px 0;
+    color:white;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
